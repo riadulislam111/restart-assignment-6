@@ -68,12 +68,10 @@ const displayCategories = (categories) => {
         categoryContainer.appendChild(button);
     });
 };
-
+loadCategories();
 
 const loadProductsByCategory = async (category) => {
     const res = await fetch(`https://fakestoreapi.com/products/category/${category}`);
     const data = await res.json();
     displayProducts(data);
 };
-
-loadCategories();
