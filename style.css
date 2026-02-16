@@ -9,3 +9,23 @@ background-position: center;;
 height: 70vh;
 display: flex;
 }
+
+.card {
+    background: white;
+    border-radius: 15px;
+    padding: 30px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+    width: 280px;
+}
+
+.icon-box {
+    background: #f5f3ff;
+    padding: 10px;
+    border-radius: 8px;
+    display: inline-block;
+    margin-bottom: 20px;
+}
+
+.icon-box i {
+    color: #5842F4;
+}
